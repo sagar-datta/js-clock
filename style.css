@@ -11,15 +11,23 @@ body {
   }
 
   h4 #clock {
-    font-size: 36px;
+    font-family: 'VT323', monospace;
+    font-size: 55px;
     display: block;
     padding: 5px 0px;
   }
 
   h4 #sub {
+    font-family: 'VT323', monospace;
       font-size: 9px;
   }
 
   footer {
       font-size: 11px;
+  }
+
+  h1 {
+    font-family: 'VT323', monospace;
+    text-transform: uppercase;
+    font-size: 60px;
   }
