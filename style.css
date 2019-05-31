@@ -1,57 +1,42 @@
 body {
-    background-color: #A9D3FF;
-  }
-  .page {
-    width: 80%;
-    max-width: 960px;
-    margin: 50px auto;
-    text-align: center;
-    background-color: #F2F4FF;
-    border-radius: 5px;
-  }
+  background-color: #A9D3FF;
+}
 
-  h4 #clock {
-    font-family: 'VT323', monospace;
-    font-size: 55px;
-    display: block;
-    padding: 5px 0px;
-  }
+.page {
+  width: 80%;
+  max-width: 960px;
+  margin: 50px auto;
+  text-align: center;
+  background-color: #F2F4FF;
+  border-radius: 5px;
+}
 
-  h4 #sub {
-    font-family: 'VT323', monospace;
-      font-size: 9px;
-  }
+h4 #clock {
+  font-family: 'VT323', monospace;
+  font-size: 55px;
+  display: block;
+  padding: 5px 0px;
+}
 
-  footer {
-      font-family: 'VT323', monospace;
-      font-size: 11px;
-  }
+h4 #sub {
+  font-family: 'VT323', monospace;
+  font-size: 9px;
+}
 
-  h1 {
-    font-family: 'VT323', monospace;
-    text-transform: uppercase;
-    font-size: 60px;
-  }
-  /* unvisited link */
-  a:link {
-    color: black;
-    text-decoration: none;
-  }
-  
-  /* visited link */
-  a:visited {
-    color: black;
-    text-decoration: none;
-  }
-  
-  /* mouse over link */
-  a:hover {
-    color: black;
-    text-decoration: none;
-  }
-  
-  /* selected link */
-  a:active {
-    color: black;
-    text-decoration: none;
-  }
+footer {
+  font-family: 'VT323', monospace;
+  font-size: 11px;
+
+}
+
+h1 {
+  font-family: 'VT323', monospace;
+  text-transform: uppercase;
+  font-size: 60px;
+}
+
+/* visited link */
+a:visited, a:hover, a:active, a:visited {
+  color: black;
+  text-decoration: none;
+}
