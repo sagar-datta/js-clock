@@ -1,14 +1,15 @@
 body {
-  background-color: #A9D3FF;
+  background-color: #007973;
 }
 
 .page {
   width: 80%;
   max-width: 960px;
-  margin: 50px auto;
+  margin: 200px auto;
   text-align: center;
   background-color: #F2F4FF;
-  border-radius: 5px;
+  border-radius: 60px;
+  color: #007973;
 }
 
 h4 #clock {
@@ -21,22 +22,24 @@ h4 #clock {
 h4 #sub {
   font-family: 'VT323', monospace;
   font-size: 9px;
+  
 }
 
 footer {
   font-family: 'VT323', monospace;
   font-size: 11px;
-  color: black;
+
 }
 
 h1 {
   font-family: 'VT323', monospace;
   text-transform: uppercase;
   font-size: 60px;
+
 }
 
 /* visited link */
 a:link, a:hover, a:active, a:visited {
-  color: black;
+  color: #007973;
   text-decoration: none;
 }
